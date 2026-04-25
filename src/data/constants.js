@@ -27,17 +27,17 @@ export const PROJECTS = [
   },
   {
     id: 2,
-    title: "CRM System",
-    description: "A comprehensive Customer Relationship Management system for robust sales and customer data tracking.",
-    tech: ["Node.js", "Express", "MongoDB", "React"],
+    title: "Khatabook CRM",
+    description: "A comprehensive CRM and financial management tool for tracking transactions and customer data. Features Redis caching for 40% faster responses, pagination, and secure JWT authentication.",
+    tech: ["Node.js", "TypeScript", "Express.js", "MongoDB", "Redis"],
     demoUrl: "#",
     githubUrl: "#"
   },
   {
     id: 3,
-    title: "Khatabook Lite",
-    description: "Financial management tool for tracking transactions and managing customer data. Features Redis caching (40% faster responses), pagination, and secure JWT authentication.",
-    tech: ["Node.js", "TypeScript", "Express", "MongoDB", "Redis"],
+    title: "E-Commerce Application",
+    description: "A microservices-based platform (4+ services) streamlining user management, product catalogs, and payments. Features RazorPay, OAuth 2.0, Elasticsearch, Redis caching, and a Kafka event-driven notification service.",
+    tech: ["Java", "Spring Boot", "Microservices", "MySQL", "Kafka", "Elasticsearch", "Redis"],
     demoUrl: "#",
     githubUrl: "#"
   }
