@@ -22,7 +22,7 @@ export const PROJECTS = [
     title: "PDF Chatbot",
     description: "An intelligent platform enabling users to converse with PDF documents using RAG, LLMs, and vector search.",
     tech: ["FastAPI", "RAG", "Ollama API", "React"],
-    demoUrl: "https://chatbot.miteklabs.tech",
+    demoUrl: "http://chatbot.miteklabs.tech",
     githubUrl: "#"
   },
   {

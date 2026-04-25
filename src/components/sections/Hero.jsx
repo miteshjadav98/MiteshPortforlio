@@ -49,7 +49,7 @@ export function Hero() {
           <Button variant="primary" size="lg" className="w-full sm:w-auto gap-2" onClick={() => document.getElementById('projects')?.scrollIntoView({behavior: 'smooth'})}>
             View Projects <ArrowRight size={18} />
           </Button>
-          <a href="https://chatbot.miteklabs.tech" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
+          <a href="http://chatbot.miteklabs.tech" target="_blank" rel="noreferrer" className="w-full sm:w-auto">
             <Button variant="secondary" size="lg" className="w-full sm:w-auto gap-2">
               Try PDF Chatbot <Bot size={18} />
             </Button>

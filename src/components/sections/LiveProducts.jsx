@@ -33,7 +33,7 @@ export function LiveProducts() {
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4 mt-auto">
-                <a href="https://chatbot.miteklabs.tech" target="_blank" rel="noreferrer">
+                <a href="http://chatbot.miteklabs.tech" target="_blank" rel="noreferrer">
                   <Button variant="gradient" className="gap-2 w-full sm:w-auto">
                     Try it now <ExternalLink size={18} />
                   </Button>
