@@ -35,9 +35,9 @@ export const PROJECTS = [
   },
   {
     id: 3,
-    title: "Sarathi",
-    description: "A smart carpooling application aimed at optimizing rides and reducing travel expenses dynamically.",
-    tech: ["Java", "Spring Boot", "MySQL", "AWS"],
+    title: "Khatabook Lite",
+    description: "Financial management tool for tracking transactions and managing customer data. Features Redis caching (40% faster responses), pagination, and secure JWT authentication.",
+    tech: ["Node.js", "TypeScript", "Express", "MongoDB", "Redis"],
     demoUrl: "#",
     githubUrl: "#"
   }
