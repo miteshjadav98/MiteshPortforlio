@@ -4,15 +4,15 @@ export const PERSONAL_INFO = {
   name: "Mitesh Jadav",
   role: "AI Engineer & Backend Developer",
   tagline: "Building AI-powered products & scalable backend systems",
-  description: "Specializing in Node.js, FastAPI, RAG, chatbots, and Azure to create intelligent and high-performance applications.",
+  description: "Specializing in Node.js, FastAPI, RAG, chatbots, Azure, Terraform, and CI/CD to create intelligent, scalable, and infrastructure-driven applications.",
   email: "jadavmitesh.jd@gmail.com",
   phone: "+91-8156069327",
   location: "Gandhinagar",
   social: {
-    linkedin: "https://linkedin.com/",
-    github: "https://github.com/",
-    leetcode: "https://leetcode.com/",
-    scaler: "https://scaler.com/"
+    linkedin: "https://linkedin.com/in/miteshjadavd/",
+    github: "https://github.com/miteshjadav98",
+    leetcode: "https://leetcode.com/Macmitek98/",
+    scaler: "https://www.scaler.com/academy/profile/c30bf1e7244b"
   }
 };
 
@@ -23,7 +23,7 @@ export const PROJECTS = [
     description: "An intelligent platform enabling users to converse with PDF documents using RAG, LLMs, and vector search.",
     tech: ["FastAPI", "RAG", "Ollama API", "React"],
     demoUrl: "http://chatbot.miteklabs.tech",
-    githubUrl: "#"
+    githubUrl: "https://github.com/miteshjadav98/PDFChatbot"
   },
   {
     id: 2,
@@ -31,7 +31,7 @@ export const PROJECTS = [
     description: "A comprehensive CRM and financial management tool for tracking transactions and customer data. Features Redis caching for 40% faster responses, pagination, and secure JWT authentication.",
     tech: ["Node.js", "TypeScript", "Express.js", "MongoDB", "Redis"],
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/miteshjadav98/KhataBookApp"
   },
   {
     id: 3,
@@ -47,22 +47,27 @@ export const SKILLS = [
   {
     category: "Backend Development",
     icon: Server,
-    items: ["Node.js", "Express.js", "FastAPI", "Spring Boot", "Java", "Python"]
+    items: ["Node.js", "NestJS", "Express.js", "FastAPI", "Spring Boot", "Java", "Python", "TypeScript"]
   },
   {
     category: "AI & Machine Learning",
     icon: BrainCircuit,
-    items: ["RAG Pipelines", "LLMs (OpenAI, Ollama)", "Prompt Engineering", "LangChain", "Chatbots"]
+    items: ["RAG Pipelines", "LLMs (OpenAI, Ollama)", "Prompt Engineering", "LangChain", "Chatbots", "LUIS", "QnA Maker"]
   },
   {
     category: "Databases & Cloud",
     icon: Database,
-    items: ["MongoDB", "Azure Cosmos DB", "MySQL", "Redis", "Azure", "AWS"]
+    items: ["MongoDB", "Azure Cosmos DB", "MySQL", "Redis", "Azure", "AWS", "Elasticsearch"]
   },
   {
-    category: "Architecture & Tools",
+    category: "Infrastructure & DevOps",
+    icon: Cloud,
+    items: ["Terraform", "Azure", "Infrastructure as Code", "GitHub Actions", "CI/CD", "Docker", "Git/GitHub"]
+  },
+  {
+    category: "Architecture & Integration",
     icon: Workflow,
-    items: ["Microservices", "REST API", "Git/GitHub", "CI/CD", "Docker", "Agile/Scrum"]
+    items: ["Microservices", "REST API", "Event-Driven Architecture", "Kafka", "ServiceNow", "BMC Remedy", "Genesys Live Chat","Nexthink"]
   }
 ];
 
@@ -73,11 +78,16 @@ export const EXPERIENCE = [
     role: "Backend Engineer",
     duration: "Jun 2021 - Present",
     highlights: [
-      "Boosted customer satisfaction by 30–40% via Live Chat and AI Chatbot solutions.",
-      "Optimized a NestJS application architecture for improved maintainability.",
-      "Integrated Azure Cosmos DB and Redis, reducing latency and improving responsiveness.",
-      "Enhanced bot intelligence with LUIS, QnA Maker, and Nexthink for 50K+ users.",
-      "Led development of a Python GenAI chatbot using FastAPI and LangChain."
+      "Collaborated with Product Owners to boost customer satisfaction by 30–40% through Live Chat and AI Chatbot solutions.",
+      "Contributed to NestJS (Node.js + TypeScript) application architecture, optimizing code modules and aligning with enterprise standards.",
+      "Integrated Azure Cosmos DB for chat session and transcript storage, and Redis for request queuing and caching, improving system responsiveness and reducing latency.",
+      "Enhanced bot intelligence and user experience by integrating LUIS, QnA Maker, and Nexthink for proactive issue detection and self-healing for 50K+ users.",
+      "Delivered seamless Genesys Live Chat integration, enabling agents to manage multiple concurrent conversations and reducing average resolution time by 70%.",
+      "Developed APIs to track key performance indicators (KPIs), leveraging data analytics to provide actionable business insights.",
+      "Streamlined IT service operations by integrating ServiceNow and BMC Remedy, ensuring adherence to ITIL best practices.",
+      "Leading development of a Python-based Generative AI chatbot using FastAPI and LangChain tool agent framework for enterprise systems.",
+      "Built infrastructure as code using Terraform in Azure to provision and manage cloud resources reliably and consistently.",
+      "Set up CI/CD pipelines using GitHub Actions for continuous integration and deployment, automating testing and release workflows."
     ]
   }
 ];
@@ -89,5 +99,29 @@ export const EDUCATION = [
     degree: "BE/B.Tech in Information and Communication Technology",
     year: "2021",
     score: "9.45 CGPA"
+  }
+];
+
+export const ACHIEVEMENTS = [
+  {
+    id: 1,
+    title: "Academic Excellence",
+    description: "BE/B.Tech in Information and Communication Technology",
+    achievement: "9.45 CGPA",
+    year: "2021"
+  },
+  {
+    id: 2,
+    title: "TCS On the Spot/Team Award",
+    description: "Recognized for outstanding contributions and exceptional performance",
+    achievement: "Multiple Awards",
+    year: "2022, 2024, 2025"
+  },
+  {
+    id: 3,
+    title: "AWS Certified Cloud Practitioner",
+    description: "Industry-recognized cloud certification",
+    achievement: "AWS Certification",
+    year: "Certified"
   }
 ];

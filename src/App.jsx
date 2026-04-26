@@ -4,6 +4,7 @@ import { Hero } from './components/sections/Hero';
 import { Projects } from './components/sections/Projects';
 import { Skills } from './components/sections/Skills';
 import { Experience } from './components/sections/Experience';
+import { Achievements } from './components/sections/Achievements';
 import { LiveProducts } from './components/sections/LiveProducts';
 import { Contact } from './components/sections/Contact';
 
@@ -16,6 +17,7 @@ function App() {
         <Projects />
         <Skills />
         <Experience />
+        <Achievements />
         <LiveProducts />
         <Contact />
       </main>
