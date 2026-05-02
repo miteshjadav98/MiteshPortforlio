@@ -28,7 +28,7 @@ export const PROJECTS = [
   {
     id: 2,
     title: "Khatabook CRM",
-    description: "Developed a production-ready, full-stack multi-tenant SaaS application designed to empower shopkeepers with comprehensive digital ledger (Udhar/Jama), inventory management, and customer tracking capabilities. Architected with a clear separation of concerns using Next.js for the frontend and NestJS for a scalable API backend. Engineered robust data isolation across tenants using Prisma ORM and PostgreSQL. Implemented a dual-authentication system with Role-Based Access Control (RBAC), allowing secure dashboard access for shopkeepers and a unique 6-character alphanumeric \"Shop Code\" login system for their customers. The backend features atomic transaction handling to ensure financial data integrity and is fully documented using Swagger. Successfully deployed the multi-service architecture to a DigitalOcean droplet, managing the production environment with PM2 and securing it via Nginx and SSL certificates.",
+    description: "A production-ready, multi-tenant SaaS application for shopkeepers to manage digital ledgers, inventory, and customers. Built with Next.js and NestJS, featuring secure data isolation, RBAC, atomic transactions, and a unique 'Shop Code' login system.",
     tech: ["Next.js (App Router)", "NestJS", "PostgreSQL", "Prisma ORM", "Supabase", "Nginx", "PM2", "DigitalOcean"],
     demoUrl: "https://app.miteklabs.tech",
     githubUrl: "https://github.com/miteshjadav98/KhataBookApp"
@@ -39,7 +39,7 @@ export const PROJECTS = [
     description: "A microservices-based platform (4+ services) streamlining user management, product catalogs, and payments. Features RazorPay, OAuth 2.0, Elasticsearch, Redis caching, and a Kafka event-driven notification service.",
     tech: ["Java", "Spring Boot", "Microservices", "MySQL", "Kafka", "Elasticsearch", "Redis"],
     demoUrl: "#",
-    githubUrl: "#"
+    githubUrl: "https://github.com/miteshjadav98/"
   }
 ];
 
