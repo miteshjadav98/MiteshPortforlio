@@ -22,15 +22,15 @@ export const PROJECTS = [
     title: "PDF Chatbot",
     description: "An intelligent platform enabling users to converse with PDF documents using RAG, LLMs, and vector search.",
     tech: ["FastAPI", "RAG", "Ollama API", "React"],
-    demoUrl: "http://chatbot.miteklabs.tech",
+    demoUrl: "https://chatbot.miteklabs.tech",
     githubUrl: "https://github.com/miteshjadav98/PDFChatbot"
   },
   {
     id: 2,
     title: "Khatabook CRM",
-    description: "A comprehensive CRM and financial management tool for tracking transactions and customer data. Features Redis caching for 40% faster responses, pagination, and secure JWT authentication.",
-    tech: ["Node.js", "TypeScript", "Express.js", "MongoDB", "Redis"],
-    demoUrl: "#",
+    description: "Developed a production-ready, full-stack multi-tenant SaaS application designed to empower shopkeepers with comprehensive digital ledger (Udhar/Jama), inventory management, and customer tracking capabilities. Architected with a clear separation of concerns using Next.js for the frontend and NestJS for a scalable API backend. Engineered robust data isolation across tenants using Prisma ORM and PostgreSQL. Implemented a dual-authentication system with Role-Based Access Control (RBAC), allowing secure dashboard access for shopkeepers and a unique 6-character alphanumeric \"Shop Code\" login system for their customers. The backend features atomic transaction handling to ensure financial data integrity and is fully documented using Swagger. Successfully deployed the multi-service architecture to a DigitalOcean droplet, managing the production environment with PM2 and securing it via Nginx and SSL certificates.",
+    tech: ["Next.js (App Router)", "NestJS", "PostgreSQL", "Prisma ORM", "Supabase", "Nginx", "PM2", "DigitalOcean"],
+    demoUrl: "https://app.miteklabs.tech",
     githubUrl: "https://github.com/miteshjadav98/KhataBookApp"
   },
   {
@@ -67,7 +67,7 @@ export const SKILLS = [
   {
     category: "Architecture & Integration",
     icon: Workflow,
-    items: ["Microservices", "REST API", "Event-Driven Architecture", "Kafka", "ServiceNow", "BMC Remedy", "Genesys Live Chat","Nexthink"]
+    items: ["Microservices", "REST API", "Event-Driven Architecture", "Kafka", "ServiceNow", "BMC Remedy", "Genesys Live Chat", "Nexthink"]
   }
 ];
 
